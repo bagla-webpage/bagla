@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Bagla Enterprise</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script>
+    tailwind.config = {
+      theme: {
+        extend: {
+          colors: {
+            cream: "#fdf6e3",
+            darkblue: "#1e3a8a",
+            softgray: "#f1f5f9",
+          }
+        }
+      }
+    }
+  </script>
+  <style>
+    body {
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    }
+
+    #goTopBtn {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      background-color: #1e3a8a;
+      color: white;
+      border: none;
+      border-radius: 50%;
+      padding: 10px 15px;
+      font-size: 20px;
+      cursor: pointer;
+      display: none;
+      z-index: 50;
+    }
+  </style>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css" />
+</head>
+
+<body class="text-gray-800 bg-softgray">
+
+  <!-- Header -->
+  <header class="bg-darkblue text-white shadow">
+    <div class="container mx-auto flex justify-between items-center p-4">
+      <div class="text-2xl font-bold">Bagla Enterprise</div>
+      <nav class="space-x-4">
+        <a href="#about" class="hover:text-yellow-300">About</a>
+        <a href="#services" class="hover:text-yellow-300">Services</a>
+        <a href="#infrastructure" class="hover:text-yellow-300">Infrastructure</a>
+        <a href="#clients" class="hover:text-yellow-300">Clients</a>
+        <a href="#contact" class="hover:text-yellow-300">Contact</a>
+      </nav>
+    </div>
+  </header>
+
+  <!-- Hero Section -->
+  <section class="bg-gray-100 text-darkblue py-16 text-center">
+    <h1 class="text-4xl font-bold mb-4">Tailored Logistics, Backed by Legacy</h1>
+    <p class="text-lg">Delivering Trust, Speed, and Precision Since 1980</p>
+  </section>
+
+  <!-- About Us -->
+  <section id="about" class="bg-cream py-12 px-6">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-semibold text-darkblue mb-6">About Us</h2>
+      <p class="mb-4"><strong>Our Vision:</strong> To be the best logistics solution provider.</p>
+      <p class="mb-4"><strong>Our Values:</strong> We thrive to go above and beyond for our customers. Our employees provide unmatched personal service and confidently tackle uncertainties based on their deep knowledge of local markets and logistics expertise.</p>
+      <p class="mb-4"><strong>Our Mission:</strong> Excel through Integrity, Personalised attention and Teamwork.</p>
+      <p class="mb-4"><strong>Our Strength:</strong> In-depth knowledge of local markets and cultures, personalised service, and a socially responsible approach.</p>
+      <p class="mb-4"><strong>Our History:</strong> Established in 1980 with business areas ranging from Manufacturing, Import/Export to Distribution, handling a wide variety of Industrial Products and Consumer Durables.</p>
+      <p><strong>Our CSR:</strong> Through our non-profit organisation, we contribute to the social and economic development of our communities, building a better, sustainable way of life for the underprivileged.</p>
+    </div>
+  </section>
+
+  <!-- Services -->
+  <section id="services" class="bg-gray-200 py-12 px-6">
+    <div class="max-w-5xl mx-auto text-center">
+      <h2 class="text-3xl font-semibold text-darkblue mb-8">Our Services</h2>
+      <div class="grid md:grid-cols-3 gap-6">
+        <div class="bg-white p-6 rounded shadow text-left">
+          <div class="text-darkblue text-3xl mb-2"><i class="fas fa-warehouse"></i></div>
+          <h3 class="font-bold text-lg mb-2 text-darkblue">Warehousing</h3>
+          <p>Secure, 24/7 monitored storage strategically located in the Calcutta metro area.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow text-left">
+          <div class="text-darkblue text-3xl mb-2"><i class="fas fa-truck"></i></div>
+          <h3 class="font-bold text-lg mb-2 text-darkblue">Transportation</h3>
+          <p>Fleet of light and medium vehicles for reliable local and regional deliveries.</p>
+        </div>
+        <div class="bg-white p-6 rounded shadow text-left">
+          <div class="text-darkblue text-3xl mb-2"><i class="fas fa-user-cog"></i></div>
+          <h3 class="font-bold text-lg mb-2 text-darkblue">Custom Solutions</h3>
+          <p>Bespoke services tailored to your industry requirements and scale.</p>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- Infrastructure -->
+  <section id="infrastructure" class="bg-white py-12 px-6">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-semibold text-darkblue mb-6">Our Infrastructure</h2>
+      <p class="mb-4">We have over 20,000 sq.ft. of warehousing space in the Mominpur – Hyde Road Industrial area with round-the-clock accessibility to Vidyasagar Setu connecting to NH2 (Delhi), NH6 (Mumbai), and NH5 (Chennai).</p>
+      <p class="mb-4">All facilities are secure with boundary walls, 24/7 security and CCTV, deep tube-well water supply, and generator backup. Our locations are equipped with broadband internet, telephones, fax, and computers.</p>
+      <p class="mb-4">Our fleet includes Light and Medium Commercial Vehicles up to 4 metric tons capacity. We handle last-mile delivery and outstation dispatches effectively.</p>
+      <p>Our 1000 sq.ft. office in South Calcutta is fully equipped and our staff is trained in SAP and local languages to ensure seamless operations.</p>
+    </div>
+  </section>
+
+  <!-- Clients -->
+  <section id="clients" class="bg-gray-100 py-12 px-6">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-semibold text-darkblue mb-6">Clients We've Served</h2>
+      <p class="mb-4"><strong>Current Logistics Partners:</strong></p>
+      <ul class="list-disc list-inside mb-6">
+        <li>Kokuyo Camlin Limited – Eastern India Hub Depot operations</li>
+        <li>Kores India Limited – West Bengal operations</li>
+      </ul>
+      <p class="mb-4"><strong>Past Clients:</strong></p>
+      <div class="grid grid-cols-1 md:grid-cols-2 gap-4">
+        <ul class="list-disc list-inside">
+          <li>Arvind Mills Limited</li>
+          <li>Blue Star Limited</li>
+          <li>Bifora Watch and Clocks</li>
+          <li>Birla Yamaha Limited</li>
+          <li>Huntsman Advanced Materials</li>
+          <li>India Gypsum Limited</li>
+          <li>Kanmoor Foods Pvt. Ltd.</li>
+          <li>Kangaroo Industries Limited</li>
+        </ul>
+        <ul class="list-disc list-inside">
+          <li>Konka Electronics</li>
+          <li>Pang Rubber Products</li>
+          <li>Shaw Wallace Electronics</li>
+          <li>Sony Orson India</li>
+          <li>Standard Times Pvt. Ltd.</li>
+          <li>Sundaram Industries (TVS)</li>
+          <li>Symphony Comfort Systems</li>
+          <li>Whirlpool / TVS Whirlpool</li>
+        </ul>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contact -->
+  <section id="contact" class="bg-white py-12 px-6 text-center">
+    <div class="max-w-5xl mx-auto">
+      <h2 class="text-3xl font-semibold text-darkblue mb-6">Contact Us</h2>
+      <p class="mb-2">Bagla Enterprise</p>
+      <p class="mb-2">9 Bhukailash Road</p>
+      <p class="mb-2">Kolkata, West Bengal 700023, India</p>
+      <p class="mb-2">
+        <i class="fas fa-envelope text-darkblue mr-2"></i>
+        <a href="mailto:contact@bagla.co.in" class="text-darkblue underline">contact@bagla.co.in</a>
+      </p>
+    </div>
+  </section>
+
+  <!-- Go to Top Button -->
+  <button id="goTopBtn" onclick="window.scrollTo({ top: 0, behavior: 'smooth' })">&#8679;</button>
+
+  <!-- Footer -->
+  <footer class="bg-darkblue text-white text-center py-4">
+    <p>&copy; 2025 Bagla Enterprise. All rights reserved.</p>
+  </footer>
+
+  <script>
+    const goTopBtn = document.getElementById("goTopBtn");
+    window.onscroll = function () {
+      goTopBtn.style.display = (window.scrollY > 200) ? "block" : "none";
+    };
+  </script>
+
+</body>
+
+</html>
